@@ -26,6 +26,7 @@ stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 server = Flask(__name__)
 app = dash.Dash('Torre_Test', external_stylesheets=stylesheets)
 app.title='Torre_Test'
+server = app.server
 
 app.layout=html.Div( children=[
     html.Div(style={'display':'inline-block', 'width':'100%'}, children=[
