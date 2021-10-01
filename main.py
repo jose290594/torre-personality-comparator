@@ -4,7 +4,6 @@ import pandas as pd
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-from flask.app import Flask
 import plotly.express as px
 
 def retUser(torreUN):
@@ -23,7 +22,6 @@ def retUser(torreUN):
 #CREATE DASH APP
 
 stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-#server = Flask(__name__)
 app = dash.Dash('Torre_Test', external_stylesheets=stylesheets)
 app.title='Torre_Test'
 server = app.server
@@ -223,4 +221,4 @@ def runComparison(dummyc, userval1, userval2):
     return comparisonFig
 
 if __name__ == '__main__':
-    app.run_server(debug=False, port=8000)
+    app.run_server(debug=False)
