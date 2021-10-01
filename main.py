@@ -23,7 +23,7 @@ def retUser(torreUN):
 #CREATE DASH APP
 
 stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-server = Flask(__name__)
+#server = Flask(__name__)
 app = dash.Dash('Torre_Test', external_stylesheets=stylesheets)
 app.title='Torre_Test'
 server = app.server
