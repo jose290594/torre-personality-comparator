@@ -223,4 +223,4 @@ def runComparison(dummyc, userval1, userval2):
     return comparisonFig
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8001)
+    app.run_server(debug=False, port=8000)
