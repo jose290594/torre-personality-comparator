@@ -1,0 +1,31 @@
+28/09/2021
+
+11:23am
+-Task Receive
+
+12:00m-1:09pm
+-Task evaluation
+-API evaluation
+
+9:00pm-10:48pm
+-Brainstorm
+-architecture design
+
+11:12pm-1:00am
+-Enviroment preparation
+-Function definition and testing
+
+29/09/2021
+
+6:30pm-8:30pm
+-UI layout development
+-UI testing
+
+30/09/2021
+
+10:30pm-3:30am
+
+-Callbacks development
+-Integration testing
+-Deployment
+-Testing
